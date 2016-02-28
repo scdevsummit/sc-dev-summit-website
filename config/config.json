@@ -1,1 +1,5 @@
-{}
+{
+  "links": {
+    "signUp": "/signup"
+  }
+}
