@@ -12,10 +12,7 @@ const nib = require('nib')
 const minifycss = require('gulp-minify-css')
 const config = require('./config/config.json')
 
-const filesToWatch = [
-  './build/**/*.{html,css,js}',
-  './config/config.json'
-]
+const filesToWatch = ['./build/**/*.{html,css,js}']
 
 gulp.task('files', () => {
   gulp.src(filesToWatch)
