@@ -1,6 +1,8 @@
 {
   "links": {
-    "signUp": "/signup"
+    "signUp": "/signup",
+    "sponsorship": "/patrocinar",
+    "call4papers": "/call4papers"
   },
 
   "info": [{
