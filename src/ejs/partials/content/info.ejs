@@ -1,4 +1,15 @@
-<div class="main-content">
-  Content
+<div class="info-about-the-event">
+  <div class="wrapper">
+    <% config.info.forEach((info) => { %>
+      <div class="info-about-the-event-item">
+        <i class="info-about-the-event-item-icon">
+          <img src="images/<%= info.image %>" alt="">
+        </i>
+        <h3 class="info-about-the-event-title">
+          <%= info.title %>
+        </h3>
+      </div>
+    <% }) %>
+  </div>
 </div>
 
