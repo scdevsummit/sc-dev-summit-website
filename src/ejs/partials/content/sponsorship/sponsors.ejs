@@ -1,0 +1,11 @@
+<div class="sponsorship-sponsors -container">
+  <h3 class="sponsorship-title">
+    Patrocínio
+  </h3>
+
+  <% config.sponsorship.sponsors.forEach((sponsor) => { %>
+  <img alt=""
+    src="images/<%= sponsor.image %>.svg"
+    class="sponsorship-image">
+  <% }) %>
+</div>
