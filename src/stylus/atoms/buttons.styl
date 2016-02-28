@@ -1,13 +1,19 @@
 .button
   $buttonHeight = 44px
+  @extend $transition
   rem(font-size, 18)
   background: $colorGreenSemiDark
+  border: 1px solid $colorGreenSemiDark
   border-radius: 10px
   color: $colorWhite
   display: inline-block
   font-weight: 900
   height: $buttonHeight
   padding: 0 30px
-  line-height: $buttonHeight
+  line-height: $buttonHeight - (@border[0] * 2)
   text-align: center
   text-transform: uppercase
+
+  &:hover
+    background: transparent
+    color: $colorGreenSemiDark
