@@ -1,6 +1,6 @@
 {
   "links": {
-    "signUp": "/signup",
+    "signup": "/signup",
     "sponsorship": "/patrocinar",
     "call4papers": "/call4papers"
   },
@@ -29,5 +29,22 @@
     "support": [{
       "image": "logo-teken"
     }]
-  }
+  },
+
+  "signup": [{
+    "slug": "backend",
+    "days": "do dia 20",
+    "price": "R$ 60",
+    "slot": "1º Lote"
+  }, {
+    "slug": "frontend",
+    "days": "do dia 21",
+    "price": "R$ 60",
+    "slot": "1º Lote"
+  }, {
+    "slug": "frontend-and-backend",
+    "days": "nos dois dias",
+    "price": "R$ 60",
+    "slot": "1º Lote"
+  }]
 }
