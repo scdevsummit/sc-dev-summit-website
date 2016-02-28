@@ -1,5 +1,7 @@
 # SC Dev Summit - Website
 
+> Temporary address: https://scdevsummit.surge.sh
+
 ## Up and Running
 
 ```
