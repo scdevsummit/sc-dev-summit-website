@@ -12,10 +12,13 @@ const nib = require('nib')
 const minifycss = require('gulp-minify-css')
 const config = require('./config/config.json')
 
-const buildFiles = ['./build/**/*.{html,css,js}']
+const filesToWatch = [
+  './build/**/*.{html,css,js}',
+  './config/config.json'
+]
 
 gulp.task('files', () => {
-  gulp.src(buildFiles)
+  gulp.src(filesToWatch)
     .pipe(livereload())
 })
 
@@ -51,7 +54,7 @@ gulp.task('watch', () => {
   gulp.watch('src/ejs/**/*.ejs', ['ejs', 'copy'])
   gulp.watch('src/stylus/**/*.styl', ['stylus', 'copy'])
   gulp.watch('src/images/**/*', ['copy'])
-  gulp.watch(buildFiles, ['files'])
+  gulp.watch(filesToWatch, ['files'])
 })
 
 gulp.task('build', ['ejs', 'stylus', 'copy'])
