@@ -1,0 +1,24 @@
+rem($prop, $val)
+  {$prop}: unit($val, 'px')
+  {$prop}: unit($val / 10, 'rem')
+
+selection()
+  &::-moz-selection
+    {block}
+  &::-webkit-selection
+    {block}
+  &::selection
+    {block}
+
+placeholder()
+  &:-moz-placeholder
+    {block}
+
+  &::-moz-placeholder
+    {block}
+
+  &:-ms-input-placeholder
+    {block}
+
+  &::-webkit-input-placeholder
+    {block}
