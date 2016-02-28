@@ -4,16 +4,28 @@
   },
 
   "info": [{
-    "image": "icon-calendar.svg",
+    "image": "icon-calendar",
     "title": "2 dias de evento"
   }, {
-    "image": "icon-talks.svg",
+    "image": "icon-talks",
     "title": "Palestras e Workshops"
   }, {
-    "image": "icon-coffee.svg",
+    "image": "icon-coffee",
     "title": "Coffee break para networking"
   }, {
-    "image": "icon-professional.svg",
+    "image": "icon-professional",
     "title": "Presença de profissionais de destaque no Brasil e no Mundo"
-  }]
+  }],
+
+  "sponsorship": {
+    "sponsors": [{
+      "image": "logo-agencia-sys"
+    }, {
+      "image": "logo-webhaus"
+    }],
+
+    "support": [{
+      "image": "logo-teken"
+    }]
+  }
 }
