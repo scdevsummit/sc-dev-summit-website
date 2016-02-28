@@ -3,7 +3,7 @@
     "start": "gulp",
     "build": "gulp build",
     "lint": "standard --verbose | snazzy",
-    "deploy": "npm run lint && npm run build && npm run build && surge --domain scdevsummit.surge.sh ./build"
+    "deploy": "npm run lint && npm run build && surge --domain scdevsummit.surge.sh ./build"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
