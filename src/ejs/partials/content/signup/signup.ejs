@@ -1,0 +1,38 @@
+<section class="signup-container">
+  <div class="wrapper">
+
+    <% config.signup.forEach((item) => { %>
+      <div class="signup-item">
+        <h2 class="signup-item-title">
+          <% if (item.slug === 'frontend-and-backend') { %>
+          <span class="word">Frontend</span>
+          <span class="word -odd">
+            <span class="e">&</span>Backend
+          </span>
+          <% } else { %>
+            <%= item.slug[0].toUpperCase() + item.slug.slice(1) %>
+          <% } %>
+        </h2>
+
+        <p class="signup-item-excerpt">
+          Ingresso válido para participar de todas as palestras e
+          workshops <%= item.days %>.
+        </p>
+
+        <p class="signup-item-price">
+          <%= item.price %>
+        </p>
+
+        <p class="signup-item-slot">
+          <%= item.slot %>
+        </p>
+
+        <a href="<%= config.links.signup %>"
+          class="signup-item-button button -dark">
+          Inscreva-se
+        </a>
+      </div>
+    <% }) %>
+
+  </div>
+</section>
