@@ -1,5 +1,19 @@
 {
   "links": {
     "signUp": "/signup"
-  }
+  },
+
+  "info": [{
+    "image": "icon-calendar.svg",
+    "title": "2 dias de evento"
+  }, {
+    "image": "icon-talks.svg",
+    "title": "Palestras e Workshops"
+  }, {
+    "image": "icon-coffee.svg",
+    "title": "Coffee break para networking"
+  }, {
+    "image": "icon-professional.svg",
+    "title": "Presença de profissionais de destaque no Brasil e no Mundo"
+  }]
 }
