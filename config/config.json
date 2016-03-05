@@ -1,7 +1,7 @@
 {
   "links": {
     "signup": "/signup",
-    "sponsorship": "/patrocinar",
+    "sponsorship": "mailto:johnathancardoso@gmail.com",
     "call4papers": "/call4papers"
   },
 
@@ -44,7 +44,7 @@
   }, {
     "slug": "frontend-and-backend",
     "days": "nos dois dias",
-    "price": "R$ 60",
+    "price": "R$ 110",
     "slot": "1º Lote"
   }]
 }
