@@ -14,7 +14,11 @@
   text-align: center
   text-transform: uppercase
 
-  &:hover
+  &:focus
+    outline: 0 none
+
+  &:hover,
+  &:focus
     background: transparent
     color: $colorGreenSemiDark
 
@@ -22,6 +26,7 @@
     background: $colorBlueDark
     border-color: $colorBlueDark
 
-    &:hover
+    &:hover,
+    &:focus
       background: transparent
       color: $colorBlueDark
