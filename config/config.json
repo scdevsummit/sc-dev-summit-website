@@ -21,13 +21,23 @@
 
   "sponsorship": {
     "sponsors": [{
-      "image": "logo-agencia-sys"
+      "image": "logo-agencia-sys.svg",
+      "width": "200",
+      "height": ""
     }, {
-      "image": "logo-webhaus"
+      "image": "logo-webhaus.svg",
+      "width": "200",
+      "height": ""
+    }, {
+      "image": "logo-univille-sponsorship.png",
+      "width": "",
+      "height": "80"
     }],
 
     "support": [{
-      "image": "logo-teken"
+      "image": "logo-teken.svg",
+      "width": "200",
+      "height": ""
     }]
   },
 
