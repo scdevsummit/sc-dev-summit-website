@@ -3,9 +3,11 @@
     Apoio
   </h3>
 
-  <% config.sponsorship.support.forEach((sponsor) => { %>
+  <% config.sponsorship.support.forEach((support) => { %>
   <img alt=""
-    src="images/<%= sponsor.image %>.svg"
+    src="images/<%= support.image %>"
+    width="<%= support.width %>"
+    height="<%= support.height %>"
     class="sponsorship-image">
   <% }) %>
 </div>
