@@ -5,7 +5,10 @@
 
   <% config.sponsorship.sponsors.forEach((sponsor) => { %>
   <img alt=""
-    src="images/<%= sponsor.image %>.svg"
-    class="sponsorship-image">
+    src="images/<%= sponsor.image %>"
+    width="<%= sponsor.width %>"
+    height="<%= sponsor.height %>"
+    class="sponsorship-image"
+  >
   <% }) %>
 </div>
