@@ -29,15 +29,19 @@
       "width": "200",
       "height": ""
     }, {
-      "image": "logo-univille-sponsorship.png",
-      "width": "",
-      "height": "80"
+      "image": "logo-softexpert.svg",
+      "width": "280",
+      "height": ""
     }],
 
     "support": [{
       "image": "logo-teken.svg",
-      "width": "200",
+      "width": "110",
       "height": ""
+    }, {
+      "image": "logo-univille-sponsorship.png",
+      "width": "",
+      "height": "80"
     }]
   },
 
