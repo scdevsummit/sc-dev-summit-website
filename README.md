@@ -1,6 +1,6 @@
 # SC Dev Summit - Website
 
-> Temporary address: https://scdevsummit.surge.sh
+> http://scdevsummit.com.br
 
 ## Up and Running
 
