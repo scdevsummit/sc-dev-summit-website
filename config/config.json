@@ -35,13 +35,17 @@
     }],
 
     "support": [{
+      "image": "logo-univille-sponsorship.png",
+      "width": "",
+      "height": "80"
+    }, {
       "image": "logo-teken.svg",
       "width": "110",
       "height": ""
     }, {
-      "image": "logo-univille-sponsorship.png",
-      "width": "",
-      "height": "80"
+      "image": "logo-coderockr.png",
+      "width": "260",
+      "height": ""
     }]
   },
 
