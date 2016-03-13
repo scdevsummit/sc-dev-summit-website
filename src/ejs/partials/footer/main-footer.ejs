@@ -9,19 +9,6 @@
     </div>
   </div>
 </footer>
-<script async defer src="https://maps.googleapis.com/maps/api/js?libraries=visualization&callback=initMap"></script>
-<script type="text/javascript">
-    function initMap() {
-      var map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: -26.252893, lng: -48.850912},
-        scrollwheel: false,
-        zoom: 16,
-      });
-
-      var marker = new google.maps.Marker({
-        position: {lat: -26.251873, lng: -48.855675},
-        map: map,
-        name: 'Univille'
-      })
-    }
-</script>
+<script aesync defer src="https://maps.googleapis.com/maps/api/js?libraries=visualization&callback=initMap"></script>
+<script type="text/javascript" src="scripts/map.js"></script>
+<script type="text/javascript" src="scripts/talks.js"></script>
