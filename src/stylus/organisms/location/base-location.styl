@@ -1,14 +1,18 @@
 .location
-  background: url('../images/univille-map.png') left top no-repeat
-  background-size: cover
   height: 420px
   margin-top: 5px
+  position: relative
+
+  .map
+    height: 100%
+    position: absolute
+    width: 100%
 
   .wrapper
     align-items: center
     display: flex
-    justify-content: flex-end
     height: 100%
+    justify-content: flex-end
 
 
 .location-container
@@ -17,7 +21,9 @@
   box-shadow: 7px 7px 0 rgba($colorGraySemiDark, 50%)
   font-family: $fontTitillium
   padding: 30px
+  position: relative
   text-align: center
+  z-index: 10
 
   img
     width: 120px
@@ -28,5 +34,5 @@
   text-transform: uppercase
 
 .location-address
-  margin: 0
   line-height: 1.4
+  margin: 0
