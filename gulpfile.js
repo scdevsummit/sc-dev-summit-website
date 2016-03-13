@@ -39,6 +39,13 @@ gulp.task('stylus', () => {
     .pipe(gulp.dest('./build/css'))
 })
 
+gulp.task('scripts', () => {
+  const jsDest = './build/scripts'
+  gulp.src('./src/scripts/*')
+    .pipe(changed(jsDest))
+    .pipe(gulp.dest(jsDest))
+})
+
 gulp.task('copy', () => {
   const imagesDest = './build/images'
   gulp.src('./src/images/**/*')
@@ -50,11 +57,12 @@ gulp.task('watch', () => {
   livereload.listen()
   gulp.watch('src/ejs/**/*.ejs', ['ejs', 'copy'])
   gulp.watch('src/stylus/**/*.styl', ['stylus', 'copy'])
+  gulp.watch('src/scripts/*', ['scripts', 'copy'])
   gulp.watch('src/images/**/*', ['copy'])
   gulp.watch(filesToWatch, ['files'])
 })
 
-gulp.task('build', ['ejs', 'stylus', 'copy'])
+gulp.task('build', ['ejs', 'stylus', 'scripts', 'copy'])
 
 gulp.task('webserver', ['build'], () => {
   connect.server({
