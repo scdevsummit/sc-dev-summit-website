@@ -49,6 +49,60 @@
     }]
   },
 
+  "talks": [{
+    "date": "20 DE MAIO",
+    "category": "BACK-END",
+    "schedule": [{
+      "hour": "8h00",
+      "type": "other",
+      "title": "CREDENCIAMENTO"
+    }, {
+      "hour": "9h00",
+      "type": "talk",
+      "speaker": "João da Silva",
+      "title": "E o pé de feijão.",
+      "image": "rafa.jpg",
+      "about": "Estudante de Analise e jogador de Futebol do Real Madrid",
+      "twitter": "joaodasilva"
+    }, {
+      "hour": "9h30",
+      "type": "workshop",
+      "speaker": "Athur Bonera",
+      "title": "Como fazer sua Excalibur.",
+      "image": "rafa.jpg",
+      "about": "Estudante de Analise e jogador de Futebol do Real Madrid",
+      "twitter": "joaodasilva"
+    }, {
+      "hour": "12h00",
+      "type": "other",
+      "title": "ALMOÇO"
+    }]
+  }, {
+    "date": "21 DE MAIO",
+    "category": "FRONT-END",
+    "schedule": [{
+      "hour": "8h00",
+      "type": "other",
+      "title": "CREDENCIAMENTO"
+    }, {
+      "hour": "9h00",
+      "type": "talk",
+      "speaker": "João da Silva",
+      "title": "E o pé de feijão.",
+      "image": "rafa.jpg",
+      "about": "Estudante de Analise e jogador de Futebol do Real Madrid Estudante de Analise e jogador de Futebol do Real Madrid Estudante de Analise e jogador de Futebol do Real Madrid Estudante de Analise e jogador de Futebol do Real Madrid Estudante de Analise e jogador de Futebol do Real Madrid",
+      "twitter": "joaodasilva"
+    }, {
+      "hour": "9h30",
+      "type": "workshop",
+      "speaker": "Athur Bonera",
+      "title": "Como fazer sua Excalibur.",
+      "image": "rafa.jpg",
+      "about": "Estudante de Analise e jogador de Futebol do Real Madrid",
+      "twitter": "joaodasilva"
+    }]
+  }],
+
   "signup": [{
     "slug": "backend",
     "days": "do dia 20",

@@ -1,0 +1,169 @@
+.talks
+  border-top: 1px solid $colorGray
+  margin-top: 70px
+  padding-top: 70px
+
+  .divisor:after
+    background-color: $colorGraySemiDark
+    content: ""
+    height: 40%
+    position: absolute
+    right: 0
+    top: 50%
+    transform: translateY(-50%)
+    width: 3px
+    z-index: 1
+
+  .schedule
+    position: relative
+    z-index: 2
+
+  .categories
+    display: inline-block
+    vertical-align: top
+    width: 48%
+
+    .categories-date
+      rem(font-size, 23)
+      color: $colorGreenSemiDark
+      font-weight: 900
+      letter-spacing: -1px
+      margin: 0
+      padding: 1.1rem 0
+      text-indent: 75px
+      text-transform: uppercase
+
+    .categories-name
+      color: #000
+      font-weight: 200
+
+  .program
+    margin: 1.5rem 0
+
+    .program-hour
+      rem(font-size, 18)
+      color: $colorGraySemiDark
+      display: inline-block
+      text-align: right
+      vertical-align: top
+      width: 55px
+
+  .program-info
+    display: inline-block
+    margin-left: 15px
+    position: relative
+    width: calc(100% - 75px)
+
+    .title
+      rem(font-size, 18)
+      margin: 0
+
+    .other-title
+      color: $colorGraySemiDark
+      font-weight: 200
+
+    .speaker-name
+      rem(font-size, 18)
+      border-bottom: 2px solid $colorGreenSemiDark
+      color: $colorBlueDark
+      display: inline-block
+      font-weight: 600
+
+    .talk-title
+      rem(font-size, 18)
+      color: $colorBlueDark
+      font-weight: 400
+      margin: .3rem 0
+
+    .workshop-title
+      color: $colorGreenSemiDark
+
+  .speaker-profile
+    @extend $transition
+    background-color: $colorGreenSemiDark
+    bottom: 63px
+    box-shadow: 10px 10px 0 $colorGraySemiDark
+    height: 220px
+    left: -70px
+    max-height: 0
+    overflow: hidden
+    position: absolute
+    width: 450px
+    z-index: 10
+
+    &.active
+      max-height: 220px
+
+  .speaker-image
+    display: inline-block
+    filter: grayscale()
+    height: 100%
+    opacity: .5
+    overflow: hidden
+    width: 50%
+
+    img
+      height: 220px
+      min-width: 100%
+
+  .speaker-info
+    color: $colorWhite
+    display: inline-block
+    margin-left: 5%
+    position: static
+    width: 40%
+    vertical-align: top
+
+    .one-line
+      overflow: hidden
+      text-overflow: ellipsis
+      white-space: nowrap
+
+    .name
+      rem(font-size, 24)
+      font-weight: 800
+      margin: .9rem 0
+
+    .social
+      rem(font-size, 16)
+      font-weight: 200
+      margin-top: -0.9rem
+
+    .about
+      rem(font-size, 14)
+      -webkit-box-orient: vertical
+      -webkit-line-clamp: 8
+      display: inline-block
+      display: -webkit-box
+      font-weight: 400
+      height: 140px
+      overflow: hidden
+      text-overflow: ellipsis
+
+@media screen and (max-width: 968px)
+  .talks
+    .categories
+      margin: 0 5%
+      width: 90%
+
+      .divisor:after
+        display: none
+
+
+@media screen and (max-width: 520px)
+  .talks
+    .speaker-profile
+      height: 170px
+      left: -80px
+      width: 300px
+
+      &.active
+        max-height: 170px
+
+      img
+        height: 170px
+
+    .speaker-info
+      .about
+        height: 88px
+        -webkit-line-clamp: 5

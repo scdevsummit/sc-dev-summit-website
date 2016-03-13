@@ -1,0 +1,48 @@
+<section class="talks">
+  <div class="wrapper">
+    <% config.talks.forEach((category, index) => { %>
+      <div class="categories">
+        <h4 class="categories-date">
+          <%= category.date %>
+          <span class="categories-name">
+            &nbsp;<%= category.category %>
+          </span>
+        </h4>
+        <div class="schedule <%= (index === 0) ? 'divisor' : '' %>">
+          <% category.schedule.forEach((program, i) => { %>
+            <div class="program">
+              <span class="program-hour">
+                <%= program.hour %>
+              </span>
+              <div class="program-info">
+                <% if (program.type != "other") { %>
+                  <div class="speaker-profile" speaker="<%= index + '-' + i %>">
+                    <div class="speaker-image">
+                      <img alt="" src="images/speakers/<%= program.image %>">
+                    </div>
+                    <div class="speaker-info">
+                      <h5 class="one-line name"><%= program.speaker %></h5>
+                      <p class="one-line social">@<%= program.twitter %></p>
+                      <p class="about"><%= program.about %></p>
+                    </div>
+                  </div>
+                <% } %>
+                <% if (program.type === "other") { %>
+                  <h5 class="other-title title"><%= program.title %></h5>
+                <% } %>
+                <% if (program.type === "talk") { %>
+                  <h5 data-index="<%= index + '-' + i %>" class="speaker-name title"><%= program.speaker %></h5>
+                  <p class="talk-title"><%= program.title %></p>
+                <% } %>
+                <% if (program.type === "workshop") { %>
+                  <h5 class="workshop-title title">WORKSHOP</h5>
+                  <p class="talk-title"><%= program.title %> com <span data-index="<%= index + '-' + i %>" class="speaker-name"><%= program.speaker %></span></p>
+                <% } %>
+              </div>
+            </div>
+          <% }) %>
+        </div>
+      </div>
+    <% }) %>
+  </div>
+</section>

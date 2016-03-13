@@ -41,9 +41,14 @@ gulp.task('stylus', () => {
 
 gulp.task('copy', () => {
   const imagesDest = './build/images'
+  const jsDest = './build/scripts'
   gulp.src('./src/images/**/*')
     .pipe(changed(imagesDest))
     .pipe(gulp.dest(imagesDest))
+
+  gulp.src('./src/scripts/*')
+    .pipe(changed(jsDest))
+    .pipe(gulp.dest(jsDest))
 })
 
 gulp.task('watch', () => {
@@ -51,6 +56,7 @@ gulp.task('watch', () => {
   gulp.watch('src/ejs/**/*.ejs', ['ejs', 'copy'])
   gulp.watch('src/stylus/**/*.styl', ['stylus', 'copy'])
   gulp.watch('src/images/**/*', ['copy'])
+  gulp.watch('src/scripts/*', ['copy'])
   gulp.watch(filesToWatch, ['files'])
 })
 
