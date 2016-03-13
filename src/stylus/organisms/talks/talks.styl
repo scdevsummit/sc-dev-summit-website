@@ -3,7 +3,7 @@
   margin-top: 70px
   padding-top: 70px
 
-  .divisor:after
+  .divider:after
     background-color: $colorGraySemiDark
     content: ""
     height: 40%
@@ -18,12 +18,12 @@
     position: relative
     z-index: 2
 
-  .categories
+  .category
     display: inline-block
     vertical-align: top
     width: 48%
 
-    .categories-date
+    .category-date
       rem(font-size, 23)
       color: $colorGreenSemiDark
       font-weight: 900
@@ -33,7 +33,7 @@
       text-indent: 75px
       text-transform: uppercase
 
-    .categories-name
+    .category-name
       color: #000
       font-weight: 200
 
@@ -142,16 +142,21 @@
 
 @media screen and (max-width: 968px)
   .talks
-    .categories
+    .category
       margin: 0 5%
       width: 90%
 
-      .divisor:after
+      .divider:after
         display: none
 
 
 @media screen and (max-width: 520px)
   .talks
+    .category
+      .category-date
+        text-align: center
+        text-indent: 0
+
     .speaker-profile
       height: 170px
       left: -80px

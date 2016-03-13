@@ -1,25 +1,20 @@
-(function showSpeakerProfile(){
+(function toggleSpeakerProfile(){
   var speakers = document.getElementsByClassName('speaker-name');
 
   Array.prototype.forEach.call(speakers, function (speaker) {
-    speaker.addEventListener('mouseover', showProfile);
-    speaker.addEventListener('mouseleave', showProfile);
-    speaker.addEventListener('click', showProfile);
+    speaker.addEventListener('mouseover', toggleProfile);
+    speaker.addEventListener('mouseleave', toggleProfile);
+    speaker.addEventListener('touchstart', toggleProfile);
   });
 
-  function showProfile(event) {
-    var currentIndex, currentElement, hasClass;
+  function toggleProfile(event) {
+    var currentIndex, currentElement;
     currentIndex = event.target.dataset.index;
-    currentElement = document.querySelector("[speaker='" + currentIndex + "']");
+    currentElement = document.querySelector('[speaker="' + currentIndex + '"]');
 
-    if (currentElement.className.indexOf("active") === -1) {
-      hasClass = true;
+    if ((currentElement.className.indexOf('active') >= 0) || (event.type === 'mouseleave')) {
+      return currentElement.classList.remove('active');
     }
-
-    if (hasClass) {
-      return currentElement.classList.add('active');
-    }
-
-    currentElement.classList.remove('active');
+    currentElement.classList.add('active');
   }
 })();

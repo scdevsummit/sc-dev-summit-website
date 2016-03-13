@@ -1,21 +1,21 @@
 <section class="talks">
   <div class="wrapper">
     <% config.talks.forEach((category, index) => { %>
-      <div class="categories">
-        <h4 class="categories-date">
+      <div class="category">
+        <h4 class="category-date">
           <%= category.date %>
-          <span class="categories-name">
+          <span class="category-name">
             &nbsp;<%= category.category %>
           </span>
         </h4>
-        <div class="schedule <%= (index === 0) ? 'divisor' : '' %>">
+        <div class="schedule <%= (index === 0) ? 'divider' : '' %>">
           <% category.schedule.forEach((program, i) => { %>
             <div class="program">
               <span class="program-hour">
                 <%= program.hour %>
               </span>
               <div class="program-info">
-                <% if (program.type != "other") { %>
+                <% if (program.type != 'other') { %>
                   <div class="speaker-profile" speaker="<%= index + '-' + i %>">
                     <div class="speaker-image">
                       <img alt="" src="images/speakers/<%= program.image %>">
@@ -27,14 +27,14 @@
                     </div>
                   </div>
                 <% } %>
-                <% if (program.type === "other") { %>
+                <% if (program.type === 'other') { %>
                   <h5 class="other-title title"><%= program.title %></h5>
                 <% } %>
-                <% if (program.type === "talk") { %>
+                <% if (program.type === 'talk') { %>
                   <h5 data-index="<%= index + '-' + i %>" class="speaker-name title"><%= program.speaker %></h5>
                   <p class="talk-title"><%= program.title %></p>
                 <% } %>
-                <% if (program.type === "workshop") { %>
+                <% if (program.type === 'workshop') { %>
                   <h5 class="workshop-title title">WORKSHOP</h5>
                   <p class="talk-title"><%= program.title %> com <span data-index="<%= index + '-' + i %>" class="speaker-name"><%= program.speaker %></span></p>
                 <% } %>
