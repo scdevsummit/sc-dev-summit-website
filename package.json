@@ -19,10 +19,5 @@
     "snazzy": "^3.0.0",
     "standard": "^6.0.7",
     "surge": "^0.17.7"
-  },
-  "standard": {
-    "globals": [
-        "google"
-    ]
   }
 }
