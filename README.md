@@ -15,6 +15,12 @@ npm start
 npm run build
 ```
 
+## Lint
+
+```
+npm run lint
+```
+
 ## Deploy
 
 ```
