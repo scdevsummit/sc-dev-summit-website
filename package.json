@@ -21,8 +21,8 @@
     "surge": "^0.17.7"
   },
   "standard": {
-    "ignore": [
-        "src/scripts/map.js"
+    "globals": [
+        "google"
     ]
   }
 }
