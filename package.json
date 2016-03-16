@@ -1,6 +1,7 @@
 {
   "scripts": {
     "start": "gulp",
+    "test": "npm run build",
     "lint": "standard --verbose | snazzy",
     "build": "npm run lint && gulp build",
     "deploy": "npm run build && surge --domain scdevsummit.surge.sh ./build"
