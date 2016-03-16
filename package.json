@@ -1,6 +1,7 @@
 {
   "scripts": {
     "start": "gulp",
+    "test": "npm run build",
     "lint": "standard --verbose | snazzy",
     "build": "npm run lint && gulp build",
     "deploy": "npm run build && surge --domain scdevsummit.surge.sh ./build"
@@ -19,10 +20,5 @@
     "snazzy": "^3.0.0",
     "standard": "^6.0.7",
     "surge": "^0.17.7"
-  },
-  "standard": {
-    "globals": [
-        "google"
-    ]
   }
 }
