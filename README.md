@@ -2,6 +2,8 @@
 
 > http://scdevsummit.com.br
 
+[![Build Status](https://travis-ci.org/scdevsummit/sc-dev-summit-website.svg?branch=master)](https://travis-ci.org/scdevsummit/sc-dev-summit-website)
+
 ## Up and Running
 
 ```
