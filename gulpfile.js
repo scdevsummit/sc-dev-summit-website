@@ -22,7 +22,7 @@ gulp.task('files', () => {
 gulp.task('ejs', () => {
   const options = { config }
   const settings = { ext: '.html' }
-  return gulp.src('./src/ejs/*.ejs')
+  return gulp.src('./src/ejs/{index,univille/index}.ejs')
     .pipe(ejs(options, settings))
     .on('error', gutil.log)
     .pipe(gulp.dest('./build'))
@@ -67,7 +67,8 @@ gulp.task('build', ['ejs', 'stylus', 'scripts', 'copy'])
 gulp.task('webserver', ['build'], () => {
   connect.server({
     root: 'build',
-    livereload: true
+    livereload: true,
+    port: process.env.PORT || 8080
   })
 })
 
