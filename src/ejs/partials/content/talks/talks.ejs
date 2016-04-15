@@ -1,4 +1,4 @@
-<section class="talks">
+<section class="[ main-section ] talks">
   <div class="wrapper">
     <% config.talks.forEach((category, index) => { %>
       <div class="category">
@@ -15,14 +15,14 @@
                 <%= program.hour %>
               </span>
               <div class="program-info">
-                <% if (program.type != 'other') { %>
+                <% if (program.type !== 'other') { %>
                   <div class="speaker-profile" speaker="<%= index + '-' + i %>">
                     <div class="speaker-image">
                       <img alt="" src="images/speakers/<%= program.image %>">
                     </div>
                     <div class="speaker-info">
                       <h5 class="one-line name"><%= program.speaker %></h5>
-                      <p class="one-line social">@<%= program.twitter %></p>
+                      <p class="one-line social"><%= (program.twitter && '@' + program.twitter) %></p>
                       <p class="about"><%= program.about %></p>
                     </div>
                   </div>
