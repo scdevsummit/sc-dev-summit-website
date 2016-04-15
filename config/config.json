@@ -22,33 +22,45 @@
   "sponsorship": {
     "sponsors": [{
       "image": "logo-agencia-sys.svg",
-      "width": "200",
-      "height": ""
-    }, {
-      "image": "logo-webhaus.svg",
-      "width": "200",
+      "width": "195",
       "height": ""
     }, {
       "image": "logo-softexpert.svg",
-      "width": "280",
+      "width": "198",
+      "height": ""
+    }, {
+      "image": "logo-webhaus.svg",
+      "width": "193",
+      "height": ""
+    }, {
+      "image": "logo-getup.svg",
+      "width": "123",
       "height": ""
     }],
 
     "support": [{
       "image": "logo-univille-sponsorship.png",
-      "width": "",
-      "height": "80"
+      "width": "54",
+      "height": ""
     }, {
       "image": "logo-teken.svg",
-      "width": "110",
+      "width": "88",
       "height": ""
     }, {
       "image": "logo-coderockr.png",
-      "width": "260",
+      "width": "200",
       "height": ""
     }, {
       "image": "logo-conexti.svg",
-      "width": "160",
+      "width": "145",
+      "height": ""
+    }, {
+      "image": "logo-abradi.svg",
+      "width": "99",
+      "height": ""
+    }, {
+      "image": "logo-floripajs.svg",
+      "width": "69",
       "height": ""
     }]
   },
@@ -57,53 +69,166 @@
     "date": "20 DE MAIO",
     "category": "BACK-END",
     "schedule": [{
-      "hour": "8h00",
+      "hour": "8h30",
       "type": "other",
       "title": "CREDENCIAMENTO"
     }, {
       "hour": "9h00",
-      "type": "talk",
-      "speaker": "João da Silva",
-      "title": "E o pé de feijão.",
-      "image": "rafa.jpg",
-      "about": "Estudante de Analise e jogador de Futebol do Real Madrid",
-      "twitter": "joaodasilva"
+      "type": "other",
+      "title": "ABERTURA"
     }, {
       "hour": "9h30",
-      "type": "workshop",
-      "speaker": "Athur Bonera",
-      "title": "Como fazer sua Excalibur.",
-      "image": "rafa.jpg",
-      "about": "Estudante de Analise e jogador de Futebol do Real Madrid",
-      "twitter": "joaodasilva"
+      "type": "talk",
+      "speaker": "Mateus Caruccio",
+      "title": "Docker, Kubernetes & Openshift: desenvolvendo e rodando aplicações na nuvem",
+      "image": "mateus-caruccio.png",
+      "about": "",
+      "twitter": ""
+    }, {
+      "hour": "10h30",
+      "type": "other",
+      "title": "COFFEE BREAK"
+    }, {
+      "hour": "11h45",
+      "type": "talk",
+      "speaker": "Sérgio Siqueira",
+      "title": "Introdução ao Worker",
+      "image": "sergio-siqueira.png",
+      "about": "",
+      "twitter": ""
     }, {
       "hour": "12h00",
       "type": "other",
       "title": "ALMOÇO"
+    }, {
+      "hour": "13h30",
+      "type": "talk",
+      "speaker": "Aurélio",
+      "title": "O poder da linha de comando",
+      "image": "aurelio.png",
+      "about": "",
+      "twitter": "oreio"
+    }, {
+      "hour": "14h30",
+      "type": "talk",
+      "speaker": "Paulo Eduardo Lima Rezende",
+      "title": "A revolução dos Middlewares com Zend Expressive",
+      "image": "paulo-eduardo-lima.png",
+      "about": "",
+      "twitter": ""
+    }, {
+      "hour": "15h30",
+      "type": "other",
+      "title": "COFFEE BREAK"
+    }, {
+      "hour": "15h45",
+      "type": "talk",
+      "speaker": "Rodrigo Wanderley \"pokemaobr\"",
+      "title": "Stand-Up do Pokemao - As comédias da vida dev",
+      "image": "rodrigo-wanderley.png",
+      "about": "",
+      "twitter": ""
+    }, {
+      "hour": "16h00",
+      "type": "talk",
+      "speaker": "Thiago Paes",
+      "title": "",
+      "image": "thiago-paes.png",
+      "about": "",
+      "twitter": ""
+    }, {
+      "hour": "17h00",
+      "type": "talk",
+      "speaker": "Matheus Marabesi",
+      "title": "",
+      "image": "matheus-marabesi.png",
+      "about": "",
+      "twitter": ""
+    }, {
+      "hour": "18h00",
+      "type": "other",
+      "title": "ENCERRAMENTO"
     }]
+
   }, {
     "date": "21 DE MAIO",
     "category": "FRONT-END",
     "schedule": [{
-      "hour": "8h00",
+      "hour": "8h30",
       "type": "other",
       "title": "CREDENCIAMENTO"
     }, {
       "hour": "9h00",
-      "type": "talk",
-      "speaker": "João da Silva",
-      "title": "E o pé de feijão.",
-      "image": "rafa.jpg",
-      "about": "Estudante de Analise e jogador de Futebol do Real Madrid Estudante de Analise e jogador de Futebol do Real Madrid Estudante de Analise e jogador de Futebol do Real Madrid Estudante de Analise e jogador de Futebol do Real Madrid Estudante de Analise e jogador de Futebol do Real Madrid",
-      "twitter": "joaodasilva"
+      "type": "other",
+      "title": "ABERTURA"
     }, {
       "hour": "9h30",
-      "type": "workshop",
-      "speaker": "Athur Bonera",
-      "title": "Como fazer sua Excalibur.",
-      "image": "rafa.jpg",
-      "about": "Estudante de Analise e jogador de Futebol do Real Madrid",
-      "twitter": "joaodasilva"
+      "type": "talk",
+      "speaker": "Maujor",
+      "title": "Flexbox, uma visão geral",
+      "image": "maujor.png",
+      "about": "",
+      "twitter": "maujor"
+    }, {
+      "hour": "10h30",
+      "type": "other",
+      "title": "COFFEE BREAK"
+    }, {
+      "hour": "11h45",
+      "type": "talk",
+      "speaker": "Diego Faria",
+      "title": "Entendendo JavaScript",
+      "image": "diego-faria.png",
+      "about": "",
+      "twitter": ""
+    }, {
+      "hour": "12h00",
+      "type": "other",
+      "title": "ALMOÇO"
+    }, {
+      "hour": "13h30",
+      "type": "talk",
+      "speaker": "Gabriel Pereira",
+      "title": "Reduxing your sadness",
+      "image": "",
+      "about": "",
+      "twitter": ""
+    }, {
+      "hour": "14h30",
+      "type": "talk",
+      "speaker": "Dan Jesus",
+      "title": "Por que você deveria usar IONIC",
+      "image": "dan-jesus.png",
+      "about": "",
+      "twitter": ""
+    }, {
+      "hour": "15h30",
+      "type": "other",
+      "title": "COFFEE BREAK"
+    }, {
+      "hour": "15h45",
+      "type": "talk",
+      "speaker": "Rafael Fuzifaru Cianci",
+      "title": "Pure Functions no JavaScript - Como é lindo trabalhar sem side-effects",
+      "image": "rafael-cianci.png",
+      "about": "",
+      "twitter": ""
+    }, {
+      "hour": "16h00",
+      "type": "talk",
+      "speaker": "Luiz Fernando Rodrigues",
+      "title": "Componentes CSS: como desenvolver pensando em reuso",
+      "image": "luiz-fernando.png",
+      "about": "",
+      "twitter": ""
+    }, {
+      "hour": "17h00",
+      "type": "talk",
+      "speaker": "Yoseph Santos",
+      "title": "HTML 5 - Além da semântica, um vasto conjunto de APIs nativas do navegador.",
+      "image": "yoseph.png",
+      "about": "",
+      "twitter": ""
     }]
   }],
 
