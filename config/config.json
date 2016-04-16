@@ -82,19 +82,27 @@
       "speaker": "Mateus Caruccio",
       "title": "Docker, Kubernetes & Openshift: desenvolvendo e rodando aplicações na nuvem",
       "image": "mateus-caruccio.png",
-      "about": "",
-      "twitter": ""
+      "about": "Conheça os fundamentos para desenvolver aplicações nativas para a nuvem. Mostramos porque o container Docker se solidifica como uma ferramenta indispensável para o desenvolvedor moderno. Avançamos para um ambiente nativamente distribuído e escalável através do projeto Kubernetes do Google, e como este é usado como base para o Openshift, uma plataforma flexível e completa, projetada para o desenvolvimento de aplicações nativas para a nuvem.",
+      "twitter": "mateuscaruccio"
     }, {
       "hour": "10h30",
       "type": "other",
       "title": "COFFEE BREAK"
     }, {
-      "hour": "11h45",
+      "hour": "10h45",
       "type": "talk",
       "speaker": "Sérgio Siqueira",
-      "title": "Introdução ao Worker",
+      "title": "Introdução a Worker",
       "image": "sergio-siqueira.png",
-      "about": "",
+      "about": "Será apresentando o conceito de Message Queue e como remover tarefas de latência do browser e executa-las nos bastidores, e tudo isso com PHP.",
+      "twitter": "serg1ors"
+    }, {
+      "hour": "11h00",
+      "type": "talk",
+      "speaker": "Thiago Paes",
+      "title": "Integração Contínua - Você não tem desculpa para não usar",
+      "image": "thiago-paes.png",
+      "about": "Uma apresentação sobre as diversas opções de ferramentas para uso de integração contínua em seus projetos.",
       "twitter": ""
     }, {
       "hour": "12h00",
@@ -114,8 +122,8 @@
       "speaker": "Paulo Eduardo Lima Rezende",
       "title": "A revolução dos Middlewares com Zend Expressive",
       "image": "paulo-eduardo-lima.png",
-      "about": "",
-      "twitter": ""
+      "about": "Afinal, o que é esse tal de Zend Expressive? Já pensou em ter a liberdade de escolher apenas as bibliotecas de sua preferência para montar seu projeto? Imagine fazer isso em um micro-framework simples, leve, com alta performance, em total conformidade com as PSR’s (incluindo PSR-7 e os middlewares) e que tenha total interoperabilidade entre todas elas. O Zend Expressive chegou ao mercado provendo tudo isso, e sem perder a gama completa de funcionalidades do seu parente Full Stack. Durante a palestra, você entenderá melhor como funciona a mais nova aposta da Zend e da comunidade do Zend Framework.",
+      "twitter": "pauloelr"
     }, {
       "hour": "15h30",
       "type": "other",
@@ -126,28 +134,28 @@
       "speaker": "Rodrigo Wanderley \"pokemaobr\"",
       "title": "Stand-Up do Pokemao - As comédias da vida dev",
       "image": "rodrigo-wanderley.png",
-      "about": "",
-      "twitter": ""
+      "about": "Pokemao irá contar como funciona o dia a dia de dev e tudo de engraçado que pode acontecer passa durante a carreira. Situações inusitadas, projetos zoados, entrevistas de emprego, envolvimento com comunidade e evolução de tecnologia são temas para as comédias da vida de dev.",
+      "twitter": "pokemaobr"
     }, {
       "hour": "16h00",
       "type": "talk",
-      "speaker": "Thiago Paes",
-      "title": "Integração Contínua - Você não tem desculpa para não usar",
-      "image": "thiago-paes.png",
-      "about": "",
+      "speaker": "Leandro Luiz Lugaresi",
+      "title": "Microservices e rabbibMQ! Messages, Messages everywhere",
+      "image": "leandro.png",
+      "about": "Você já passou por sufocos com serviços altamente acoplados? Acredite você não é o único que passou por esses problemas e talvez o rabbitMQ seja a solução para você! Entenda como é possível criar uma arquitetura de microserviços baseada em message driven com a utilização do rabbitMQ e as vantagens dessa solução.",
       "twitter": ""
     }, {
       "hour": "17h00",
       "type": "talk",
       "speaker": "Matheus Marabesi",
-      "title": "",
+      "title": "Torne-se um Jedi com streams em PHP",
       "image": "matheus-marabesi.png",
-      "about": "",
-      "twitter": ""
+      "about": "Livre-se do CURL e consuma web services like a boss ! O que são streams ? Como podemos manipular arquivos compactados ? Como aplicamos contexto ao nossos streams ? Tudo isso e muito mais para se tornar um jedi com streams!",
+      "twitter": "marabesi"
     }, {
       "hour": "18h00",
       "type": "other",
-      "title": "ENCERRAMENTO"
+      "title": "ENCERRAMENTO E SORTEIOS"
     }]
 
   }, {
@@ -167,19 +175,27 @@
       "speaker": "Maujor",
       "title": "Flexbox, uma visão geral",
       "image": "maujor.png",
-      "about": "",
+      "about": "Nesta palestra Maujor mostra, com uso de exemplos práticos, as diferentes declarações CSS previstas no módulo CSS para criação de boxes flexíveis.",
       "twitter": "maujor"
     }, {
       "hour": "10h30",
       "type": "other",
       "title": "COFFEE BREAK"
     }, {
-      "hour": "11h45",
+      "hour": "10h45",
       "type": "talk",
       "speaker": "Diego Faria",
       "title": "Entendendo JavaScript",
       "image": "diego-faria.png",
-      "about": "",
+      "about": "Vivemos em um mundo onde JavaScript está por toda a parte. É a linguagem com maior popularidade dentre os repositórios do github. Ainda assim nem todos entendem como ela realmente funciona, mesmo usando no seu próprio dia a dia. Por isso venho trazer a verdade e desmitificar o funcionamento do JavaScript. ",
+      "twitter": "diegofaria"
+    }, {
+      "hour": "11h00",
+      "type": "talk",
+      "speaker": "Dan Jesus",
+      "title": "Por que você deveria usar IONIC",
+      "image": "dan-jesus.png",
+      "about": "Desenvolvendo mobile apps modernas e matadoras com IONIC, utilizando todos os recursos disponíveis como geolocalização, notificações push, camera e muito mais.",
       "twitter": ""
     }, {
       "hour": "12h00",
@@ -188,19 +204,19 @@
     }, {
       "hour": "13h30",
       "type": "talk",
-      "speaker": "Gabriel Pereira",
+      "speaker": "Rodolfo dos Anjos e Gabriel Pereira",
       "title": "Reduxing your sadness",
-      "image": "",
-      "about": "",
+      "image": "gabriel-e-rodolfo.png",
+      "about": "Como redux e a programação funcional podem mudar sua forma de pensar.",
       "twitter": ""
     }, {
       "hour": "14h30",
       "type": "talk",
-      "speaker": "Dan Jesus",
-      "title": "Por que você deveria usar IONIC",
-      "image": "dan-jesus.png",
-      "about": "",
-      "twitter": ""
+      "speaker": "Fernando Daciuk",
+      "title": "JavaScript Secrets",
+      "image": "daciuk.png",
+      "about": "O JavaScript por muitas vezes é mal interpretado por ter sua natureza assíncrona, ou quando você tenta compará-lo com outras linguagens que funcionam de forma diferente. Nessa talk será mostrado como usar o JS da melhor maneira possível, com dicas que talvez você não conheça, obtendo o máximo da linguagem mais utilizada no mundo atualmente.",
+      "twitter": "fdaciuk"
     }, {
       "hour": "15h30",
       "type": "other",
@@ -211,24 +227,28 @@
       "speaker": "Rafael Fuzifaru Cianci",
       "title": "Pure Functions no JavaScript - Como é lindo trabalhar sem side-effects",
       "image": "rafael-cianci.png",
-      "about": "",
-      "twitter": ""
+      "about": "Pretendo lhes mostrar oque é Pure Functions. Porque você deveria estar usando em seus projetos. E os problemas encontrado em estados compartilhados.",
+      "twitter": "rafacianci"
     }, {
       "hour": "16h00",
       "type": "talk",
       "speaker": "Luiz Fernando Rodrigues",
       "title": "Componentes CSS: como desenvolver pensando em reuso",
       "image": "luiz-fernando.png",
-      "about": "",
-      "twitter": ""
+      "about": "Um dos principais pilares para a web emplacar como uma plataforma para se construir aplicações robustas foi o CSS. Porém, cada vez mais precisamos de aplicações dinâmicas e modularizadas. E como criar componentes encapsulados em uma linguagem onde tudo é global? Nessa talk iremos ver paradigmas e aprender como desenvolver CSS escalável em tempos de módulos JavaScript, HTTP/2 e Web Components.",
+      "twitter": "fernahh"
     }, {
       "hour": "17h00",
       "type": "talk",
       "speaker": "Yoseph Santos",
       "title": "HTML 5 - Além da semântica, um vasto conjunto de APIs nativas do navegador.",
       "image": "yoseph.png",
-      "about": "",
-      "twitter": ""
+      "about": "Além da semântica, o ponto central do HTML5 é padronizar e disponibilizar um vasto conjunto de APIs nativas do navegador. Porque não utilizar nos seus projetos ou no projeto da sua empresa?",
+      "twitter": "Yoseph_Santos"
+    }, {
+      "hour": "18h00",
+      "type": "other",
+      "title": "ENCERRAMENTO E SORTEIOS"
     }]
   }],
 
