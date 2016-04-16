@@ -4,7 +4,8 @@
     "test": "npm run build",
     "lint": "standard --verbose | snazzy",
     "build": "npm run lint && gulp build",
-    "deploy": "npm run build && surge --domain scdevsummit.surge.sh ./build"
+    "deploy": "npm run build && surge --domain scdevsummit.surge.sh ./build",
+    "kill": "kill $(lsof -i :8080 | grep node | awk '{print $2}')"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
