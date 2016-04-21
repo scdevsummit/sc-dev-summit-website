@@ -40,7 +40,7 @@
 
     "support": [{
       "image": "logo-univille-sponsorship.png",
-      "width": "54",
+      "width": "80",
       "height": ""
     }, {
       "image": "logo-teken.svg",
@@ -111,11 +111,11 @@
     }, {
       "hour": "13h30",
       "type": "talk",
-      "speaker": "Aurélio",
-      "title": "O poder da linha de comando",
-      "image": "aurelio.png",
-      "about": "",
-      "twitter": "oreio"
+      "speaker": "Elton Minetto",
+      "title": "Let's log!",
+      "image": "minetto.jpg",
+      "about": "Micro serviços, containers, filas, frontend, mobile... Nossos projetos estão cada vez mais complexos e nossos logs precisam acompanhar essa evolução. Nessa palestra vamos ver como usar o Monolog e outras ferramentas para facilitar a gestão dos logs em projetos modernos.",
+      "twitter": "eminetto"
     }, {
       "hour": "14h30",
       "type": "talk",
@@ -212,11 +212,11 @@
     }, {
       "hour": "14h30",
       "type": "talk",
-      "speaker": "Fernando Daciuk",
-      "title": "JavaScript Secrets",
-      "image": "daciuk.png",
-      "about": "O JavaScript por muitas vezes é mal interpretado por ter sua natureza assíncrona, ou quando você tenta compará-lo com outras linguagens que funcionam de forma diferente. Nessa talk será mostrado como usar o JS da melhor maneira possível, com dicas que talvez você não conheça, obtendo o máximo da linguagem mais utilizada no mundo atualmente.",
-      "twitter": "fdaciuk"
+      "speaker": "Aurélio",
+      "title": "O poder da linha de comando",
+      "image": "aurelio.png",
+      "about": "",
+      "twitter": "oreio"
     }, {
       "hour": "15h30",
       "type": "other",
