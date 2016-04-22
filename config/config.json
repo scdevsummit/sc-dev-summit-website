@@ -212,10 +212,10 @@
     }, {
       "hour": "14h30",
       "type": "talk",
-      "speaker": "Aurélio",
+      "speaker": "Aurelio",
       "title": "O poder da linha de comando",
       "image": "aurelio.png",
-      "about": "",
+      "about": "Linha de comando é lugar para dev frontend? Com certeza! Vamos desvendar juntos os mistérios da tela preta. São ideias simples, numa interface textual, que trazem um enorme poder ao seu arsenal de ferramentas.",
       "twitter": "oreio"
     }, {
       "hour": "15h30",
